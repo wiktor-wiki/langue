@@ -6,7 +6,7 @@
  * @license     http://opensource.org/licenses/MIT MIT License
  */
 
-langue = (function() {
+var { Language, langue, c, kw, sw, p, s, skip } = (function() {
     /**
      * Escape a regex chunk
      *
@@ -321,5 +321,14 @@ langue = (function() {
      */
     langue.syntax = {};
 
-    return langue;
+    return {
+        Language: Language,
+        langue: langue,
+        c: c,
+        kw: kw,
+        sw: sw,
+        p: p,
+        s: s,
+        skip: skip,
+    };
 })();
