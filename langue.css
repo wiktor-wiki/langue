@@ -1,0 +1,28 @@
+:root {
+   --c-string: #37bc98;
+   --c-keyword: #e9573f;
+   --c-comment: #ccd1d9;
+   --c-punctuation: #adb0b6;
+   --c-special: #1c94e4;
+}
+
+code .string {
+   color: var(--c-string);
+}
+
+code .comment {
+   color: var(--c-comment);
+   font-style: italic;
+}
+
+code .punctuation {
+   color: var(--c-punctuation);
+}
+
+code .keyword {
+   color: var(--c-keyword);
+}
+
+code .special {
+   color: var(--c-special);
+}
